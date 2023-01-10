@@ -1,0 +1,7 @@
+sentence1="Sky is blue in colour"
+sentence2="ram likes blue colour"
+a=sentence1.split()
+b=sentence2.split()
+a=set(a)
+b=set(b)
+print(a.symmetric_difference(b))
